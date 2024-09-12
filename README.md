@@ -34,9 +34,10 @@ nextflow run main.nf --inputDir <path_to_fastq_directory> --referenceDir <path_t
 
 ### Parameters
 
-- `--runName`: Name of the run (required)
-- `--reads`: Path to input reads (paired-end FASTQ files)
+- `--inputDir`: Path to directory containing input fastq files
 - `--referenceDir`: Path to the directory containing BWA index files for hg38
+- `--outputDir`: Path to output directory
+
 
 ## Input
 
